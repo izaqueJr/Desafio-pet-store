@@ -1,0 +1,25 @@
+/* --------------------------------------------------- */
+/*                      Search                         */
+/* --------------------------------------------------- */
+
+.search-input{
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 7px 10px ;
+}
+
+.search-input button{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+
+.search-input input{
+    border: none;
+    height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    
+}
+

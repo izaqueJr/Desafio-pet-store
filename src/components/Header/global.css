@@ -1,0 +1,22 @@
+.header-container{
+    max-width: 73.125rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-row--1{
+    padding: 1.875rem 0;
+}
+
+.header-row--2{
+    background-color: #8158c5;
+    padding: 1.0625rem 0;
+}
+
+ul, summary {
+	list-style: none;
+	list-style-type: none;
+}

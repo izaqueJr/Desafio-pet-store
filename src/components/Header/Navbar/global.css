@@ -1,0 +1,12 @@
+.header-navbar ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2.6875rem;
+}
+.header-navbar li a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .875rem;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;
+}
