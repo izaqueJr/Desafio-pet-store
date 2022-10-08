@@ -1,5 +1,5 @@
 .footer-row--1{
-    padding: 40px 0;
+    padding: 2.5rem 0;
     border-bottom: .0625rem solid #f0f0f0;
 }
 
@@ -7,7 +7,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    gap: 1rem;
+    padding: 0 1.25rem;
 }
 
 .footer-row--1 .footer-container{
@@ -26,6 +27,14 @@
 
 }
 
+.footer-logo{
+    display: flex;
+}
+
+.footer-logo img{
+    width: 100%;
+}
+
 /* ------------------------------------------------- */
 /*               Column Social Links                 */
 /* ------------------------------------------------- */
@@ -34,19 +43,19 @@
     background: #7f7f7f;
     border-radius: 100%;
     display: flex;
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
     justify-content: center;
     align-items: center;
     transition: 0.3s;
 }
 
 .footer-social-links {
-    padding: 30px 0 1.25rem;
+    padding: 1.875rem 0 1.25rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .footer-social-links a:hover{
@@ -56,9 +65,9 @@
 .footer-copyright{
     text-align: center;
     font-weight: 300;
-    font-size: 10px;
+    font-size: .625rem;
     color: #7f7f7f;
-    line-height: 18px;
+    line-height: 1.125rem;
 }
 
 /* ------------------------------------------------- */
@@ -78,26 +87,24 @@
 }
 
 .footer-column--payments{
-   gap: 8px;
-   display: flex;
-   flex-direction: column;
-}
-
-.footer-column--payments div{
-   gap: 8px;
+   gap: .5rem;
    display: flex;
    flex-direction: row;
+   flex-wrap: wrap;
+   max-width: 200px;
+
 }
+
 
 
 /* ------------------------------------------------- */
 /*               Row 2 - Development                 */
 /* ------------------------------------------------- */
 .footer-row--2 {
-    padding: 12px 0;
+    padding: .75rem 0;
 }
 .footer-row--2 .footer-container{
-    gap: 26px;
+    gap: 1.625rem;
     align-items: center;  
 }
 
@@ -106,4 +113,20 @@
     font-weight: 400;
     color: #7f7f7f;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 64rem){
+    .footer-column,
+    .footer-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-container{
+      padding: 0;
+    }
+   
+    .footer-row--2{
+        padding: 1.75rem 0;
+    }
 }

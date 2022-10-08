@@ -7,7 +7,7 @@ export const novidades = [
         installmentValue: null,
         productImage:"/public/products/produto-1.png",
         productURL:"#",
-        label:""
+        productLabel:""
     },
     { 
         productTitle:"Lorem ipsum dolor summit", 
@@ -17,7 +17,7 @@ export const novidades = [
         installmentValue: 9999,
         productImage:"/public/products/produto-2.png",
         productURL:"#",
-        label:"50% OFF"
+        productLabel:"50% OFF"
     },
     
     { 
@@ -28,7 +28,7 @@ export const novidades = [
         installmentValue: null,
         productImage:"/public/products/produto-3.png",
         productURL:"#",
-        label:""
+        productLabel:""
     },
 
     { 
@@ -39,7 +39,7 @@ export const novidades = [
         installmentValue: 9999,
         productImage:"/public/products/produto-4.png",
         productURL:"#",
-        label:"Novo"
+        productLabel:"Novo"
     }
 ]
 export const destaques = [
@@ -51,7 +51,7 @@ export const destaques = [
         installmentValue: null,
         productImage:"/public/products/produto-1.png",
         productURL:"#",
-        label:""
+        productLabel:""
     },
     { 
         productTitle:"Lorem ipsum dolor summit", 
@@ -61,7 +61,7 @@ export const destaques = [
         installmentValue: 9999,
         productImage:"/public/products/produto-2.png",
         productURL:"#",
-        label:"50% OFF"
+        productLabel:"50% OFF"
     },
     
     { 
@@ -72,7 +72,7 @@ export const destaques = [
         installmentValue: null,
         productImage:"/public/products/produto-3.png",
         productURL:"#",
-        label:""
+        productLabel:""
     },
 
     { 
@@ -83,7 +83,7 @@ export const destaques = [
         installmentValue: 9999,
         productImage:"/public/products/produto-4.png",
         productURL:"#",
-        label:"Novo"
+        productLabel:"Novo"
     },
     { 
         productTitle:"Lorem ipsum dolor summit", 
@@ -93,7 +93,7 @@ export const destaques = [
         installmentValue: null,
         productImage:"/public/products/produto-1.png",
         productURL:"#",
-        label:""
+        productLabel:""
     },
     { 
         productTitle:"Lorem ipsum dolor summit", 
@@ -103,7 +103,7 @@ export const destaques = [
         installmentValue: 9999,
         productImage:"/public/products/produto-2.png",
         productURL:"#",
-        label:"50% OFF"
+        productLabel:"50% OFF"
     },
     
     { 
@@ -114,7 +114,7 @@ export const destaques = [
         installmentValue: null,
         productImage:"/public/products/produto-3.png",
         productURL:"#",
-        label:""
+        productLabel:""
     },
 
     { 
@@ -125,7 +125,7 @@ export const destaques = [
         installmentValue: 9999,
         productImage:"/public/products/produto-4.png",
         productURL:"#",
-        label:"Novo"
+        productLabel:"Novo"
     }
 ]
 

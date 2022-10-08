@@ -4,6 +4,7 @@ interface ProductProps {
     productTitle: string;
     productPrice: number;
     productImage: string;
+    productLabel?: string;
     productURL: string;
     litPrice: number|null;
     installmentsNumber: number|null;
@@ -12,6 +13,7 @@ interface ProductProps {
 
 export default function Product({ 
     productTitle, 
+    productLabel,
     litPrice, 
     productPrice,
     installmentsNumber,
@@ -22,7 +24,26 @@ export default function Product({
 
     return(
         <a className='product' href={productURL}>
+            
             <img src={productImage} alt={productTitle} className='product-image' />
+           {
+                productLabel &&
+                <div className='product-label'>
+                    <div className='product-label-container'>
+                        <p>
+                            {productLabel}
+                        </p>
+                    </div>
+                </div>
+            }
+
+            <div className="product-addToCart">
+                <div className="addToCart-container">
+                    <button className="addToCart-button">COMPRA RÁPIDA</button>
+                </div>
+            </div>
+            
+
             <h3 className='product-title'>
                 {productTitle}
             </h3>

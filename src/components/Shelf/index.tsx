@@ -24,6 +24,7 @@ export default function Shelf({title, collection, blockClass} : ShelfProps) {
                                 productURL= {item.productURL}
                                 productPrice={item.productPrice}
                                 litPrice={item.litPrice}
+                                productLabel={item.productLabel}
                                 installmentsNumber={item.installmentsNumber}
                                 installmentValue={item.installmentValue}
                             />

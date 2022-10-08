@@ -1,48 +1,58 @@
-.newsletter-form{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  width: 100%;
+  max-width: 18.75rem;
+}
+
+.newsletter-form button {
+  padding: 0.625rem 1.125rem;
+}
+
+.newsletter-form button {
+  background-color: #ffa200;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+}
+
+.newsletter-form span {
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.newsletter-form input {
+  color: #ffff;
+  width: 100%;
+  border: none;
+  font-weight: 300;
+  font-size: .875rem;
+  background: transparent;
+  border-bottom: 0.0625rem solid #fff;
+}
+
+.newsletter-form input::placeholder {
+  color: rgba(255, 255, 255, 0.596);
+}
+
+@media screen and (min-width: 768px) {
+  .newsletter-form {
     align-items: end;
-    gap: 17px;
-}
-
-.newsletter-form button{
-   padding: .625rem 1.125rem;
-    
-}
-
-.newsletter-form button{
-    width: 80px;
-    background-color: #ffa200;
-    cursor: pointer;
-    border: none;
-}
-
-.newsletter-form span{
-    color: #fff;
-    font-size: .75rem;
-    font-weight: 300;
-}
-
-
-.newsletter-form input{
-    color: #ffff;
-    border: none;
-    font-weight: 300; 
-    font-size: 14px;
-    background: transparent;
-    border-bottom: .0625rem solid #fff;
-}
-
-.newsletter-form input::placeholder{
-    color: rgba(255, 255, 255, 0.596);
-}
-
-@media screen and (min-width: 768px){
-  .input-name{
-    width: 11.25rem;
+    flex-direction: row;
+    max-width: 100%;
   }
-  .input-email{
-    width: 17.4375rem;
+  .input-name {
+    max-width: 11.25rem;
+  }
+  .input-email {
+    max-width: 17.4375rem;
+  }
+
+  .newsletter-form button {
+    max-width: 5rem;
   }
 }

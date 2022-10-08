@@ -6,9 +6,9 @@ export default function Footer() {
         <footer>   
             <section className='footer-row footer-row--1'>
                 <div className='footer-container container'>
-
+                    
                     <div className='footer-column'>
-                        <div>
+                        <div className='footer-logo'>
                             <img src="/public/logo.png" alt="Pet Store" />
                         </div>
 
@@ -28,7 +28,7 @@ export default function Footer() {
                             <p>© 2019  •  CNPJ 00.000.000/0000-00 <br/> Rua Tal de Tal, 123 - Cidade</p>
                         </div>
                     </div>
-
+                    
                     <div className='footer-column footer-column--menu' >
                             <h3 className='footer-column--title'>Pet Store </h3>
                             <a href="">Quem somos</a>   
@@ -49,19 +49,16 @@ export default function Footer() {
                     <div className='footer-column footer-column--menu'>
                         <h3 className='footer-column--title'>Pagamentos</h3>
                         <div className='footer-column--payments'>
-                            <div>
+                     
                                 <img src="/public/pagamentos/american.png" alt="american" />
                                 <img src="/public/pagamentos/aura.png" alt="aura" />
                                 <img src="/public/pagamentos/boleto.png" alt="boleto" />
                                 <img src="/public/pagamentos/dinersclub.png" alt="dinersclub" />
-                            </div>
-                            
-                            <div>
                                 <img src="/public/pagamentos/elo.png" alt="elo" />
                                 <img src="/public/pagamentos/hipercard.png" alt="hipercard" />
                                 <img src="/public/pagamentos/mastercard.png" alt="mastercard" />
                                 <img src="/public/pagamentos/visa.png" alt="visa" />
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

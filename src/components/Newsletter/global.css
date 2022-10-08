@@ -15,12 +15,33 @@
 .newsletter-content h2{
     color: #fff;
     font-size: 1.5rem;
+    line-height: 1.7rem;
     font-weight: 600;
     margin-bottom: 1.25rem;
+    text-align: center;
 }
+
 .newsletter-content p{
+    text-align: center;
     color: #fff;
     font-size: .875rem;
+    line-height: 1.5rem;
     font-weight: 300;
     margin-bottom: 1.25rem;
+}
+
+@media screen and (max-width: 48rem){
+    .newsletter{
+        padding: 0 1.25rem;
+    }
+    
+    .newsletter-content {
+        padding: 2.4375rem 0;
+    }
+    .newsletter-content h2{
+        color: #fff;
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 1.25rem;
+    }
 }
