@@ -45,7 +45,7 @@ export default function Header() {
                                 <a href="#">Link</a>
                             </div>
                         </nav>
-                      </details>
+                    </details>
                 </div>
             </div>
         </div>

@@ -1,0 +1,48 @@
+.newsletter-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap: 17px;
+}
+
+.newsletter-form button{
+   padding: .625rem 1.125rem;
+    
+}
+
+.newsletter-form button{
+    width: 80px;
+    background-color: #ffa200;
+    cursor: pointer;
+    border: none;
+}
+
+.newsletter-form span{
+    color: #fff;
+    font-size: .75rem;
+    font-weight: 300;
+}
+
+
+.newsletter-form input{
+    color: #ffff;
+    border: none;
+    font-weight: 300; 
+    font-size: 14px;
+    background: transparent;
+    border-bottom: .0625rem solid #fff;
+}
+
+.newsletter-form input::placeholder{
+    color: rgba(255, 255, 255, 0.596);
+}
+
+@media screen and (min-width: 768px){
+  .input-name{
+    width: 11.25rem;
+  }
+  .input-email{
+    width: 17.4375rem;
+  }
+}

@@ -1,0 +1,14 @@
+.mid-banner{
+    display: flex;
+    gap: 1.125rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2.5rem 0;
+}
+.mid-banner a{
+    display: flex;
+}
+
+.mid-banner img{
+    width: 100%;
+}
