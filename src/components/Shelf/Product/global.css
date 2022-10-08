@@ -1,0 +1,28 @@
+.product{
+    width: 17.4375rem;
+    text-decoration: none;
+}
+
+.product-values{
+  text-align: center;
+}
+
+.product span, .product-title { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: .875rem;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: #333333;
+    margin: 0;
+}
+
+.product-price{
+    font-weight: 500!important;
+}
+
+.product-price-container{
+    display: flex;
+    gap: 1.25rem;
+    justify-content: center;
+}
