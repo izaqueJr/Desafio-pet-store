@@ -26,13 +26,13 @@
 }
 
 .nav-mob--submenu-container {
-  margin: 0 0 10px 20px;
+  margin: 0 0 .625rem 1.25rem;
   display: flex;
   flex-direction: column;
 }
 
 .nav-mob--submenu-container span {
-  margin-left: 20px;
+  margin-left: 1.25rem;
   display: flex;
   flex-direction: column;
 }

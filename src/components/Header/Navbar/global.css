@@ -38,7 +38,7 @@
 }
 
 .link-text {
-  font-size: 14px;
+  font-size: .875rem;
   font-weight: 300;
   transition: all 0.1s linear;
   text-align: center;
@@ -48,8 +48,8 @@
 
 .menu-link {
   height: 3.75rem;
-  padding: 0 20px;
-  line-height: 45px;
+  padding: 0 1.25rem;
+  line-height: 2.8125rem;
   color: #ffffff;
 }
 
@@ -59,20 +59,20 @@
   display: block;
   top: 3.75rem;
   left: 0;
-  width: 200px;
+  width: 12.5rem;
 }
 
 .menu ul.submenu-1 a {
-  width: 160px;
-  padding: 0 20px;
+  width: 10rem;
+  padding: 0 1.25rem;
 }
 
 /* Submenu nivel 2*/
 .menu li:hover>ul.submenu-2 {
   display: block;
   top: 0;
-  left: 200px;
-  width: 200px;
+  left: 12.5rem;
+  width: 12.5rem;
 }
 
 .menu ul.submenu-2 a {
