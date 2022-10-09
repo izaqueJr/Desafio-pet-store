@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <main>
         <BannerFull src="../src/assets/banner-full.jpg" alt="banner-tv" />
         <CategoriesRow />

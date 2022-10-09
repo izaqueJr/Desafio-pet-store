@@ -22,8 +22,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 73px;
-    height: 32px;
+    width: 4.5625rem;
+    height: 2rem;
     background: #8158c5;
     transition: .4s ease;
     opacity: 1;
@@ -67,7 +67,7 @@
     transition: .5s ease;
     background: #8258c586;
     width: 100%;
-    height: 279px;
+    height: 17.4375rem;
 }
 
 .product:hover .product-addToCart {
@@ -87,7 +87,7 @@
     font-weight: 600;
     color: #ffffff;
     background: #ffa200;
-    padding: 13px 19px;
+    padding: .8125rem 1.1875rem;
     border: none;
     cursor: pointer;
 }

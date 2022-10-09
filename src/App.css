@@ -12,6 +12,8 @@ time {
 	font: inherit;
 	font-family: 'Montserrat', sans-serif;
 	vertical-align: baseline;
+
+    text-decoration: none;
 }
 
 body {
@@ -29,7 +31,7 @@ input{
 
 .container{
 	margin: 0 auto;
-	width: 100%;
+	padding: 0 .9375rem;
     max-width: 73.125rem;
 }
 

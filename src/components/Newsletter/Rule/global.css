@@ -29,7 +29,7 @@
 
 
 
-@media screen and (max-width: 48rem){
+@media screen and (max-width: 64rem){
     .rule-container{
         flex-direction: column;
         gap: 1.25rem;

@@ -17,8 +17,31 @@
 
 .search-input input{
     border: none;
-    height: 25px;
-    font-size: 14px;
-    
+    height: 1.5625rem;
+    font-size: .875rem;
+
 }
 
+.search-bar--sticky-false  {
+    display: none;
+}
+
+@media screen and (max-width: 48rem){
+    .search-bar--sticky-true {
+        position: fixed;
+        z-index: 10;
+        top: 4.2rem;
+        width: 100%;
+        background: #fff;
+        border-bottom: 1px solid #ddd;
+    }
+
+
+    .search-input{
+        padding: .625rem;
+        border: none;
+        max-width: 25rem;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+}

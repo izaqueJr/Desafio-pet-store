@@ -1,11 +1,98 @@
-.header-navbar ul{
-    display: flex;
-    flex-direction: row;
-    gap: 2.6875rem;
+.menu-content {
+  display: flex;
+  flex-direction: row;
 }
-.header-navbar li a{
-    font-size: .875rem;
-    font-weight: 300;
+
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Configurações menu */
+
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu ul {
+    position: absolute;
+    display: none;
+}
+.menu li {
+   
+    width: auto;
+    position: relative;
+}
+
+.link-text{
+  font-size: 14px;
+  font-weight: 300;
+  transition: all 0.1s linear;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.menu-link {
+  height: 3.75rem;
+  padding: 0 20px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+/* Submenu*/
+
+.menu li:hover > ul.submenu-1 {
+    display: block;
+    top: 3.75rem;
+    left: 0;
+    width: 200px;
+}
+
+.menu ul.submenu-1 a {
+    width: 160px;
+    padding: 0 20px;
+}
+
+/* Submenu nivel 2*/
+.menu li:hover > ul.submenu-2 {
+    display: block;
+    top: 0;
+    left: 200px;
+    width: 200px;
+}
+
+.menu ul.submenu-2 a {
+    width: 10rem;
+    padding: 0 1.25rem;
+}
+
+/* cores */
+.submenuLevel2-content,
+.submenu-content{
+  padding: .6875rem 0;
+}
+
+.submenu-1,
+.submenu-2 {
+    background: #fff;
+}
+.submenuLevel2-content:hover,
+.submenu-content:hover{
+    background: #7f7f7f;
+}
+
+.submenuLevel2-content a,
+.submenu-content a{
+    color: #7f7f7f;
+}
+.submenu-content:hover .submenu-link,
+.submenuLevel2-content:hover .submenuLevel2-link {
     color: #ffffff;
-    text-decoration: none;
 }
+
+
