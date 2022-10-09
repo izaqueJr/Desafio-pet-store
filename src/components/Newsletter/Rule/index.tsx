@@ -1,8 +1,8 @@
 import './global.css'
 
 export default function Rule() {
-    
-    return(
+
+    return (
 
         <div className='rule-container'>
             <div className="rule-column">
@@ -23,8 +23,8 @@ export default function Rule() {
                     <b>CADASTRE-SE</b> E GANHE DESCONTO
                 </p>
             </div>
-        </div> 
+        </div>
 
-    
+
     )
 }

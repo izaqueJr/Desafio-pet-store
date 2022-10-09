@@ -45,9 +45,11 @@
     flex-direction: row;
     max-width: 100%;
   }
+
   .input-name {
     max-width: 11.25rem;
   }
+
   .input-email {
     max-width: 17.4375rem;
   }

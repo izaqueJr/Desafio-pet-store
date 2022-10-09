@@ -3,12 +3,12 @@ import Form from './Form';
 import Rule from './Rule';
 
 export default function Newsletter() {
-    
-    return(
-      
+
+    return (
+
         <section className='newsletter'>
             <div className='container'>
-                <Rule/>
+                <Rule />
 
                 <div className='newsletter-content'>
                     <h2>ASSINE NOSSA NEWSLETTER</h2>
@@ -16,7 +16,7 @@ export default function Newsletter() {
                     <Form />
                 </div>
             </div>
-        </section> 
+        </section>
 
     )
 }

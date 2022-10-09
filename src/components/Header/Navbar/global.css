@@ -1,3 +1,8 @@
+.nav-desktop {
+  display: flex;
+  width: 100%;
+}
+
 .menu-content {
   display: flex;
   flex-direction: row;
@@ -16,19 +21,23 @@
 .menu {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu ul {
-    position: absolute;
-    display: none;
-}
-.menu li {
-   
-    width: auto;
-    position: relative;
+  position: absolute;
+  display: none;
 }
 
-.link-text{
+.menu li {
+
+  width: auto;
+  position: relative;
+}
+
+.link-text {
   font-size: 14px;
   font-weight: 300;
   transition: all 0.1s linear;
@@ -46,53 +55,60 @@
 
 /* Submenu*/
 
-.menu li:hover > ul.submenu-1 {
-    display: block;
-    top: 3.75rem;
-    left: 0;
-    width: 200px;
+.menu li:hover>ul.submenu-1 {
+  display: block;
+  top: 3.75rem;
+  left: 0;
+  width: 200px;
 }
 
 .menu ul.submenu-1 a {
-    width: 160px;
-    padding: 0 20px;
+  width: 160px;
+  padding: 0 20px;
 }
 
 /* Submenu nivel 2*/
-.menu li:hover > ul.submenu-2 {
-    display: block;
-    top: 0;
-    left: 200px;
-    width: 200px;
+.menu li:hover>ul.submenu-2 {
+  display: block;
+  top: 0;
+  left: 200px;
+  width: 200px;
 }
 
 .menu ul.submenu-2 a {
-    width: 10rem;
-    padding: 0 1.25rem;
+  width: 10rem;
+  padding: 0 1.25rem;
 }
 
 /* cores */
 .submenuLevel2-content,
-.submenu-content{
+.submenu-content {
   padding: .6875rem 0;
 }
 
 .submenu-1,
 .submenu-2 {
-    background: #fff;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+
 .submenuLevel2-content:hover,
-.submenu-content:hover{
-    background: #7f7f7f;
+.submenu-content:hover {
+  background: #7f7f7f;
 }
 
 .submenuLevel2-content a,
-.submenu-content a{
-    color: #7f7f7f;
+.submenu-content a {
+  color: #7f7f7f;
 }
+
 .submenu-content:hover .submenu-link,
 .submenuLevel2-content:hover .submenuLevel2-link {
-    color: #ffffff;
+  color: #ffffff;
 }
 
-
+@media screen and (max-width: 64rem) {
+  .nav-desktop {
+    display: none !important;
+  }
+}
