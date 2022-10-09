@@ -6,11 +6,12 @@ interface BannerProps {
     alt?: string;
 }
 
-export default function BannerFull({src, alt} : BannerProps) {
+export default function BannerFull({ src, alt }: BannerProps) {
     console.log(src, alt)
-    return(
+    return (
         <section className="banner-container">
-            <img src={src} alt={alt} />
+            <img src="/banner-full.jpg" alt="banner principal" className="desktop-image" />
+            <img src="/banner-full-mob.jpg" alt="banner principal" className="mobile-image" />
         </section>
     )
 }

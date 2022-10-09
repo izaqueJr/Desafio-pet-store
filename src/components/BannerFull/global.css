@@ -1,6 +1,21 @@
-.banner-container{
+.banner-container {
     display: flex;
 }
-.banner-container img{
+
+.banner-container img {
     width: 100%;
+}
+
+.mobile-image {
+    display: none;
+}
+
+@media screen and (max-width: 48rem) {
+    .mobile-image {
+        display: block;
+    }
+
+    .desktop-image {
+        display: none;
+    }
 }
