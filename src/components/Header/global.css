@@ -56,6 +56,10 @@
     filter: invert(1);
 }
 
+.header-collumn--user-area {
+    gap: 1rem;
+    display: flex;
+}
 
 .nav-title--mobile {
     display: none;
@@ -75,10 +79,6 @@
         display: flex;
     }
 
-    .header-collumn--user-area {
-        gap: 1rem;
-        display: flex;
-    }
 
     .header-row--2 {
         padding: 0 .625rem;

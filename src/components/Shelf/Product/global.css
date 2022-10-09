@@ -1,10 +1,11 @@
-.product{
+.product {
     width: 17.4375rem;
     position: relative;
     text-decoration: none;
 }
 
-.product span, .product-title { 
+.product span,
+.product-title {
     font-size: .875rem;
     text-align: center;
     font-weight: 300;
@@ -14,11 +15,10 @@
 }
 
 
-/* ------------------------------------------------- */
-/*                   Product Label                   */
-/* ------------------------------------------------- */
 
-.product-label{
+/* Product Label */
+
+.product-label {
     position: absolute;
     top: 0;
     left: 0;
@@ -29,52 +29,30 @@
     opacity: 1;
 }
 
-.product-label p{
+.product-label p {
     color: #ffffff;
     font-weight: 400;
     font-size: .75rem;
-  }
+}
 
 
-.product-label-container{
+.product-label-container {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.product:hover .product-label{
-    opacity: 0.2;
-    transition: .3s ease;
-}
 
-/* ------------------------------------------------- */
-/*                 Add to Cart Button                */
-/* ------------------------------------------------- */
-.product-image{
+
+/* Add to Cart Button  */
+
+.product-image {
     transition: .5s ease;
 }
-.product:hover .product-image{
-    transition: .5s ease;
-    opacity: .3;
-}
 
-.product-addToCart {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: .5s ease;
-    background: #8258c586;
-    width: 100%;
-    height: 17.4375rem;
-}
 
-.product:hover .product-addToCart {
-    opacity: 1;
-}
-
-.addToCart-container{
+.addToCart-container {
     display: flex;
     height: 100%;
     width: 100%;
@@ -83,7 +61,8 @@
 
 }
 
-.addToCart-button{
+.addToCart-button {
+    margin: .625rem 0;
     font-weight: 600;
     color: #ffffff;
     background: #ffa200;
@@ -93,22 +72,55 @@
 }
 
 
-/* ------------------------------------------------- */
-/*                    Product Price                  */
-/* ------------------------------------------------- */
 
-.product-price-container{
+/* Product Price */
+
+.product-price-container {
     display: flex;
     gap: 1.25rem;
     justify-content: center;
 }
 
-.product-values{
-  text-align: center;
+.product-list-price {
+    font-size: .85rem;
+    text-decoration: line-through;
 }
 
-.product-price{
-    font-weight: 500!important;
+.product-values {
+    text-align: center;
 }
 
+.product-price {
+    font-weight: 500 !important;
+}
 
+@media screen and (min-width: 64rem) {
+
+    .product-addToCart {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: .5s ease;
+        background: #8258c586;
+        width: 100%;
+        height: 17.4375rem;
+    }
+
+    .product:hover .product-label {
+        opacity: 0.2;
+        transition: .3s ease;
+    }
+
+    .product:hover .product-image {
+        transition: .5s ease;
+        opacity: .3;
+    }
+
+
+    .product:hover .product-addToCart {
+        opacity: 1;
+    }
+
+
+}
