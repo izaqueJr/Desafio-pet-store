@@ -16,11 +16,15 @@ function App() {
     <>
       <Header />
       <main>
-        <BannerFull src="../src/assets/banner-full.jpg" alt="banner-tv" />
+        <BannerFull
+          mobile='/banner-full-mob.jpg'
+          desktop='/banner-full.jpg'
+          alt="banner principal"
+        />
         <CategoriesRow />
         <Shelf title="NOVIDADES" collection={novidades} />
-        <MidBanner/>
-        <Shelf title="MAIS VENDIDOS" collection={destaques} blockClass="destaques"/>
+        <MidBanner />
+        <Shelf title="MAIS VENDIDOS" collection={destaques} blockClass="destaques" />
         <Newsletter />
       </main>
       <Footer />

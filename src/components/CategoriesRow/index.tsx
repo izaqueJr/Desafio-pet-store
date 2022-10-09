@@ -1,25 +1,17 @@
-import React from "react";
-
 import './global.css'
-import bannerCategory1 from "../../assets/banner-category-1.png";
-import bannerCategory2 from "../../assets/banner-category-2.png";
-import bannerCategory3 from "../../assets/banner-category-3.png";
-
-
-
 export default function CategoriesRow() {
-    
-    return(
+
+    return (
         <section className="categories-row">
-            <div className="categories-container"> 
-                <a href="">
-                    <img src={bannerCategory1} alt="rações" />
+            <div className="categories-container">
+                <a href="#">
+                    <img src="/banner-category-1.png" alt="rações" />
                 </a>
-                <a href="">
-                    <img src={bannerCategory2} alt="brinquedos" />
+                <a href="#">
+                    <img src="/banner-category-2.png" alt="brinquedos" />
                 </a>
-                <a href="">
-                    <img src={bannerCategory3} alt="acessórios" />
+                <a href="#">
+                    <img src="/banner-category-3.png" alt="acessórios" />
                 </a>
             </div>
         </section>

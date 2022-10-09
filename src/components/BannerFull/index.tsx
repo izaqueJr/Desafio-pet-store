@@ -2,16 +2,17 @@ import React from "react";
 import './global.css'
 
 interface BannerProps {
-    src: string;
+    mobile: string;
+    desktop: string;
     alt?: string;
 }
 
-export default function BannerFull({ src, alt }: BannerProps) {
-    console.log(src, alt)
+export default function BannerFull({ mobile, desktop, alt }: BannerProps) {
+
     return (
         <section className="banner-container">
-            <img src="/banner-full.jpg" alt="banner principal" className="desktop-image" />
-            <img src="/banner-full-mob.jpg" alt="banner principal" className="mobile-image" />
+            <img src={desktop} alt={alt} className="desktop-image" />
+            <img src={mobile} alt={alt} className="mobile-image" />
         </section>
     )
 }
