@@ -14,8 +14,6 @@ export default function Navbar({ menu }: MenuProps) {
             <ul className="menu">
                 {
                     menu.map((item: any) => {
-                        console.log(item)
-
                         return (
                             <li>
                                 <a href="#" className='link-text menu-link'>{item.name}</a>

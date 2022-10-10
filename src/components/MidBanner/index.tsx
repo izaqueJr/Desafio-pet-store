@@ -7,10 +7,10 @@ export default function MidBanner() {
         <section className='mid-banner container'>
 
             <a href="#">
-                <img src="/public/mid-banner-1.png" alt="Para cachorros" />
+                <img src=" /mid-banner-1.png" alt="Para cachorros" />
             </a>
             <a href="#">
-                <img src="/public/mid-banner-2.png" alt="Para cachorros" />
+                <img src=" /mid-banner-2.png" alt="Para cachorros" />
             </a>
 
         </section>

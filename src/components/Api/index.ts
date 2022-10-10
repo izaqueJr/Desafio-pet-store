@@ -6,7 +6,7 @@ export const novidades = [
         productPrice: 9999,
         installmentsNumber: null,
         installmentValue: null,
-        productImage: "/public/products/produto-1.png",
+        productImage: " /products/produto-1.png",
         productURL: "#",
         productLabel: ""
     },
@@ -17,7 +17,7 @@ export const novidades = [
         productPrice: 9999,
         installmentsNumber: 99,
         installmentValue: 9999,
-        productImage: "/public/products/produto-2.png",
+        productImage: " /products/produto-2.png",
         productURL: "#",
         productLabel: "50% OFF"
     },
@@ -29,7 +29,7 @@ export const novidades = [
         productPrice: 9999,
         installmentsNumber: null,
         installmentValue: null,
-        productImage: "/public/products/produto-3.png",
+        productImage: " /products/produto-3.png",
         productURL: "#",
         productLabel: ""
     },
@@ -41,7 +41,7 @@ export const novidades = [
         productPrice: 9999,
         installmentsNumber: 99,
         installmentValue: 9999,
-        productImage: "/public/products/produto-4.png",
+        productImage: " /products/produto-4.png",
         productURL: "#",
         productLabel: "Novo"
     }
@@ -54,7 +54,7 @@ export const destaques = [
         productPrice: 9999,
         installmentsNumber: null,
         installmentValue: null,
-        productImage: "/public/products/produto-1.png",
+        productImage: " /products/produto-1.png",
         productURL: "#",
         productLabel: ""
     },
@@ -65,7 +65,7 @@ export const destaques = [
         productPrice: 9999,
         installmentsNumber: 99,
         installmentValue: 9999,
-        productImage: "/public/products/produto-2.png",
+        productImage: " /products/produto-2.png",
         productURL: "#",
         productLabel: "50% OFF"
     },
@@ -77,7 +77,7 @@ export const destaques = [
         productPrice: 9999,
         installmentsNumber: null,
         installmentValue: null,
-        productImage: "/public/products/produto-3.png",
+        productImage: " /products/produto-3.png",
         productURL: "#",
         productLabel: ""
     },
@@ -89,7 +89,7 @@ export const destaques = [
         productPrice: 9999,
         installmentsNumber: 99,
         installmentValue: 9999,
-        productImage: "/public/products/produto-4.png",
+        productImage: " /products/produto-4.png",
         productURL: "#",
         productLabel: "Novo"
     },
@@ -101,7 +101,7 @@ export const destaques = [
         productPrice: 9999,
         installmentsNumber: null,
         installmentValue: null,
-        productImage: "/public/products/produto-1.png",
+        productImage: " /products/produto-1.png",
         productURL: "#",
         productLabel: ""
     },
@@ -112,7 +112,7 @@ export const destaques = [
         productPrice: 9999,
         installmentsNumber: 99,
         installmentValue: 9999,
-        productImage: "/public/products/produto-2.png",
+        productImage: " /products/produto-2.png",
         productURL: "#",
         productLabel: "50% OFF"
     },
@@ -124,7 +124,7 @@ export const destaques = [
         productPrice: 9999,
         installmentsNumber: null,
         installmentValue: null,
-        productImage: "/public/products/produto-3.png",
+        productImage: " /products/produto-3.png",
         productURL: "#",
         productLabel: ""
     },
@@ -136,7 +136,7 @@ export const destaques = [
         productPrice: 9999,
         installmentsNumber: 99,
         installmentValue: 9999,
-        productImage: "/public/products/produto-4.png",
+        productImage: " /products/produto-4.png",
         productURL: "#",
         productLabel: "Novo"
     }

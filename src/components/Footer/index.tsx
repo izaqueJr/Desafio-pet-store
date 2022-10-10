@@ -9,18 +9,18 @@ export default function Footer() {
 
                     <div className='footer-column'>
                         <div className='footer-logo'>
-                            <img src="/public/logo.png" alt="Pet Store" />
+                            <img src="/icons/logo.png" alt="Pet Store" />
                         </div>
 
                         <div className='footer-social-links'>
                             <a href="#">
-                                <img src="/public/social/facebook.png" alt="facebook" />
+                                <img src=" /social/facebook.png" alt="facebook" />
                             </a>
                             <a href="#">
-                                <img src="/public/social/insta.png" alt="instagram" />
+                                <img src=" /social/insta.png" alt="instagram" />
                             </a>
                             <a href="#">
-                                <img src="/public/social/twitter.png" alt="twitter" />
+                                <img src=" /social/twitter.png" alt="twitter" />
                             </a>
                         </div>
 
@@ -50,14 +50,14 @@ export default function Footer() {
                         <h3 className='footer-column--title'>Pagamentos</h3>
                         <div className='footer-column--payments'>
 
-                            <img src="/public/pagamentos/american.png" alt="american" />
-                            <img src="/public/pagamentos/aura.png" alt="aura" />
-                            <img src="/public/pagamentos/boleto.png" alt="boleto" />
-                            <img src="/public/pagamentos/dinersclub.png" alt="dinersclub" />
-                            <img src="/public/pagamentos/elo.png" alt="elo" />
-                            <img src="/public/pagamentos/hipercard.png" alt="hipercard" />
-                            <img src="/public/pagamentos/mastercard.png" alt="mastercard" />
-                            <img src="/public/pagamentos/visa.png" alt="visa" />
+                            <img src=" /pagamentos/american.png" alt="american" />
+                            <img src=" /pagamentos/aura.png" alt="aura" />
+                            <img src=" /pagamentos/boleto.png" alt="boleto" />
+                            <img src=" /pagamentos/dinersclub.png" alt="dinersclub" />
+                            <img src=" /pagamentos/elo.png" alt="elo" />
+                            <img src=" /pagamentos/hipercard.png" alt="hipercard" />
+                            <img src=" /pagamentos/mastercard.png" alt="mastercard" />
+                            <img src=" /pagamentos/visa.png" alt="visa" />
 
                         </div>
                     </div>
